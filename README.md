@@ -1,6 +1,6 @@
 # CG-Anem
 
-Add to device config for climateguard/CG-Anem
+Add to device config for ElectroZheka/CG-Anem
 ```yaml
 esphome:
   name: 'esp-test'
