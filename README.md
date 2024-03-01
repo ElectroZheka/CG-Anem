@@ -1,6 +1,11 @@
 # CG-Anem
 
+Скопируйте файл _cg_Anem.h в папку /config/esphome/my_components/cgAnem/ HomeAssistant
+Copy file _cg_Anem.h in folder /config/esphome/my_components/cgAnem/ HomeAssistant
+
+Добавьте конфигурацию CG-Anem в ESPHome
 Add to device config for ElectroZheka/CG-Anem
+
 ```yaml
 esphome:
   name: 'esp-test'
