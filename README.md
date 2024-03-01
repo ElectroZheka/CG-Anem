@@ -21,6 +21,14 @@ esphome:
 
 ...
 
+globals:
+  - id: duct
+    type: float
+    restore_value: no
+    initial_value: '200'  # сечение воздуховода
+
+...
+
 sensor:  
   - platform: custom
     lambda: |-
