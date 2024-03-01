@@ -81,8 +81,7 @@ binary_sensor:
     lambda: |-
       auto cg_anem = new MycgAnem();
       App.register_component(cg_anem);
-```
       return {cg_anem->SensorStatusWDT_BinarySensor};
     binary_sensors:
       - name: "cgAnem Status WDT"
-    
+  ```  
